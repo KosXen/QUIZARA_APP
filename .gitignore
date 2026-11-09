@@ -1,0 +1,23 @@
+# Gradle / Android build output
+.gradle/
+build/
+app/build/
+.cxx/
+.kotlin/
+captures/
+*.apk
+*.aab
+
+# Machine-specific settings
+local.properties
+.idea/
+*.iml
+.DS_Store
+
+# Signing keys must never be committed
+*.jks
+*.keystore
+keystore.properties
+
+# Python
+__pycache__/
